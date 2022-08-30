@@ -8,7 +8,7 @@ namespace PracticeCoolStuff.Models
 {
     public class People
     {
-        [ScaffoldColumn(false)]
+        [Key, ScaffoldColumn(false)]
         public int PersonID { get; set; }
 
         [Required, StringLength(100), Display(Name = "First Name")]

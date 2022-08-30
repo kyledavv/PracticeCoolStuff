@@ -8,6 +8,9 @@ namespace PracticeCoolStuff.Models
 {
     public class PersonsRacquet
     {
+        [Key, Required]
+        public int ID { get; set; }
+
         [Required]
         public int PersonID { get; set; }
         

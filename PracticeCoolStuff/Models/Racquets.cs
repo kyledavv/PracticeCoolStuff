@@ -9,7 +9,7 @@ namespace PracticeCoolStuff.Models
 {
     public class Racquets
     {
-        [ScaffoldColumn(false)]
+        [Key, ScaffoldColumn(false)]
         public int RacquetID { get; set; }
 
         [Required, StringLength(50), Display(Name = "Brand")]
